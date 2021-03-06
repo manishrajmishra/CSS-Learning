@@ -3,13 +3,16 @@
 }
 
 .card{
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
     padding: 1rem;
     margin: 1rem;
     border: 1px solid black;
     max-width: 200px;
+}
+
+.card >p{
+    flex-grow: 1;
 }
 
 .card + .bottom{
