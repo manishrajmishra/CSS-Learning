@@ -1,10 +1,15 @@
 .row{
     display: flex;
     align-items: center;
+    height: 800px;
 }
 
 .card{
     padding: 1rem;
     margin: 1rem;
     border: 1px solid black;
+}
+
+.card + .bottom{
+    align-self: flex-end;
 }
