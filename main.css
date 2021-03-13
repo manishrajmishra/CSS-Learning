@@ -9,7 +9,7 @@
     padding: 1rem;
     margin: 1rem;
     border: 1px solid black;
-    max-width: 200px;
+    /* max-width: 200px; */
 }
 
 .card .thumbnail{
@@ -28,4 +28,9 @@
 
 .card + .bottom{
     align-self: flex-end;
+}
+
+.grid-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
